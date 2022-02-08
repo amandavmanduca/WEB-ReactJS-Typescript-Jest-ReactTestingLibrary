@@ -1,0 +1,40 @@
+.formInput {
+    width: 100%;
+    height: 45px;
+    border-radius: 5px;
+    border: none;
+    box-shadow: rgba(0, 0, 0, 0.05) 0px 6px 24px 0px, rgba(0, 0, 0, 0.08) 0px 0px 0px 1px;
+    padding: 0px 10px;
+    font-size: 16px;
+    font-weight: 300;
+    outline: none;
+    display: flex;
+    align-items: center;
+}
+.formInput:active {
+    outline: solid 1px gray;
+}
+
+.inputLabel {
+    font-size: 18px;
+    color: black;
+    margin-top: 10px;
+}
+
+.inputErrorMessage {
+    font-size: 12px;
+    color: red;
+}
+
+.button {
+    cursor: pointer;
+    padding: 10px 20px;
+    border-radius: 5px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    border: none;
+    min-width: 180px;
+}
+
+.button:disabled {
+    opacity: 0.4;
+}
