@@ -1,0 +1,36 @@
+
+.deviceCardBox {
+    width: 100%;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 20px;
+}
+
+@media (max-width: 1000px) {
+    .deviceCardBox {
+        grid-template-columns: 1fr 1fr;
+    }
+}
+
+@media (max-width: 700px) {
+    .deviceCardBox {
+        grid-template-columns: 1fr;
+    }
+}
+
+.flexBox {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.noDataFoundBox {
+    width: 100%;
+    margin-top: 50px;
+    height: 100%;
+    gap: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
