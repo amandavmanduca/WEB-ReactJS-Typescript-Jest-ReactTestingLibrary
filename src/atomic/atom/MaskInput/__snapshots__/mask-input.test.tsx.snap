@@ -1,0 +1,72 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Mask input component should matches snapshot 1`] = `
+<div>
+  <div>
+    <div>
+      <label
+        htmlFor="test"
+      >
+        <p
+          className="inputLabel"
+        >
+          Test
+        </p>
+      </label>
+      <input
+        className="formInput"
+        data-testid="mask-input"
+        id="test"
+        name="test"
+        onBlur={[Function]}
+        onChange={[Function]}
+        onFocus={[Function]}
+      />
+      <div />
+    </div>
+  </div>
+  <div
+    style={
+      Object {
+        "display": "flex",
+        "flexWrap": "wrap",
+        "gap": "10px",
+        "padding": "20px 0px",
+      }
+    }
+  >
+    <button
+      className="button"
+      data-testid="button"
+      disabled={false}
+      onClick={[Function]}
+      style={
+        Object {
+          "backgroundColor": "#fc8eac",
+        }
+      }
+    >
+      <p
+        className="buttonText"
+      />
+    </button>
+    <button
+      className="button"
+      data-testid="button"
+      disabled={false}
+      onClick={[MockFunction]}
+      style={
+        Object {
+          "backgroundColor": "white",
+        }
+      }
+    >
+      <p
+        className="secondaryButtonText"
+      >
+        Cancelar
+      </p>
+    </button>
+  </div>
+</div>
+`;
