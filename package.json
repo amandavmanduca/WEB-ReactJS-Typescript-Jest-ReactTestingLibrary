@@ -10,9 +10,17 @@
     "@types/node": "^16.7.13",
     "@types/react": "^17.0.20",
     "@types/react-dom": "^17.0.9",
+    "@types/testing-library__react": "^10.2.0",
+    "axios": "^0.25.0",
+    "fastest-validator": "^1.12.0",
+    "final-form": "^4.20.6",
+    "imask": "^6.3.0-alpha.0",
     "react": "^17.0.2",
     "react-dom": "^17.0.2",
+    "react-final-form": "^6.5.7",
+    "react-router-dom": "^6.2.1",
     "react-scripts": "5.0.0",
+    "react-toastify": "^8.1.1",
     "typescript": "^4.4.2",
     "web-vitals": "^2.1.0"
   },
@@ -39,5 +47,9 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "devDependencies": {
+    "@types/react-test-renderer": "^17.0.1",
+    "react-test-renderer": "^17.0.2"
   }
 }
